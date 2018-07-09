@@ -1,24 +1,11 @@
 # MicrosoftBuildingsToFeatureclass
 
-The toolbox and associated script in the zipped folder will convert the geoJSON building 
-footprints from Microsofts USBuildingFootprints project to ESRI Polygon features
+Forked from @germrothdaniel on GitHub
 
-I tested this on washington DC and have not yet built it out to handle larger states. You may run into memory issues in 32 bit python. If so, let me know which state is causing a memory issue and I'll try to fix it!
+Standalone python script to be run from an IDE. Built using ESRI ArcPro Python 3.6 version.
 
-
-
-Download the zipped folder and unzip it.
-
-Either add the toolbox to ArcCatalog or ArcMap.
-
-Execute the tool.
-
-
-
-The parameters that you must enter are:
-raw json file from microsoft
-Desired spatial refernece for the output featureclass
-Filepath to an existing GDB where featureclass will be created
-Name for output featureclass
-
-THE FEATURECLASS WILL BE DELETED IF IT ALREADY EXISTS WHEN SCRIPT IS EXECUTED.
+User needs to edit the variables that have an "EDIT VALUE" comment next to them. The script needs the path to an
+ESRI geodatabase, a json file from the Microsoft Building Footprint Dataset, a name for the output feature class,
+and the output WKID value used in projecting polygons for the users geographic location. Features are written to
+the geodatabase feature class at an interval of every 10,000 polygons as a default. The user can edit this value
+if they desire.
