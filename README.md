@@ -7,6 +7,8 @@ Dataset, a name for the output feature class, and the output WKID value used in 
 geographic location. Features are written to the geodatabase feature class at an interval of every 10,000 polygons
 as a default. The user can edit this value if they desire.
 
+This version uses a generator to avoid the memory issues encountered with the original pre-forked version.
+
 User needs to edit the variables that have an "EDIT VALUE" comment next to them. These variables have a -9999 as a 
 placeholder (see image below). 
 
