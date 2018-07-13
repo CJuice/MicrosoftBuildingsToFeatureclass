@@ -10,4 +10,4 @@ and the output WKID value used in projecting polygons for the users geographic l
 the geodatabase feature class at an interval of every 10,000 polygons as a default. The user can edit this value
 if they desire.
 
-![TEST](https://github.com/username/reponame/blob/master/subfolders.../filename.jpg)
+![Where to edit.](https://github.com/CJuice/MicrosoftBuildingsToFeatureclass/blob/master/WhereToEdit.PNG)
