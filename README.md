@@ -1,4 +1,4 @@
-# MicrosoftBuildingsToFeatureclass
+# Microsoft Buildings To ESRI Feature Class Polygons (ArcGIS Pro Python 3.6)
 
 Standalone python script to be run from an IDE. Built with ESRI ArcPro Python 3.6 version as the interpreter.
 
