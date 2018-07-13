@@ -1,7 +1,5 @@
 # MicrosoftBuildingsToFeatureclass
 
-Forked from @germrothdaniel on GitHub
-
 Standalone python script to be run from an IDE. Built with ESRI ArcPro Python 3.6 version as the interpreter.
 
 User needs to edit the variables that have an "EDIT VALUE" comment next to them. These variables have a -9999 as a 
