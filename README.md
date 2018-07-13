@@ -9,3 +9,5 @@ ESRI geodatabase, a json file from the Microsoft Building Footprint Dataset, a n
 and the output WKID value used in projecting polygons for the users geographic location. Features are written to
 the geodatabase feature class at an interval of every 10,000 polygons as a default. The user can edit this value
 if they desire.
+
+![TEST](https://github.com/username/reponame/blob/master/subfolders.../filename.jpg)
